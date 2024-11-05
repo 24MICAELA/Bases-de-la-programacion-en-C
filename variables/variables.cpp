@@ -26,7 +26,7 @@ void ejecutarVariables() {
     cout << "Ingresa la inicial de tu nombre: ";
     cin >> inicial;
 
-    cout << "¿Eres estudiante? (1 para sí, 0 para no): ";
+    cout << "¿Eres estudiante? (1 para si, 0 para no): ";
     cin >> esEstudiante;
 
     cout << saludo << nombre << "! Tienes " << edad << " años, mides "

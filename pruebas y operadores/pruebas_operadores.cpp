@@ -16,7 +16,7 @@ void ejecutarPruebas() {
     }
 
     int num1, num2;
-    cout << "Ingresa dos números enteros:\n";
+    cout << "Ingresa dos numeros enteros:\n";
     cout << "Número 1: ";
     cin >> num1;
     cout << "Número 2: ";
@@ -24,7 +24,7 @@ void ejecutarPruebas() {
 
     cout << "Suma: " << (num1 + num2) << "\n";
     cout << "Resta: " << (num1 - num2) << "\n";
-    cout << "Multiplicación: " << (num1 * num2) << "\n";
+    cout << "Multiplicacion: " << (num1 * num2) << "\n";
     cout << "División: " << (num1 / num2) << "\n";
     cout << "Módulo: " << (num1 % num2) << "\n";
 
@@ -34,14 +34,15 @@ void ejecutarPruebas() {
     cout << "¿Es " << num1 << " mayor que " << num2 << "? " << (num1 > num2) << "\n";
     cout << "¿Es " << num1 << " menor que " << num2 << "? " << (num1 < num2) << "\n";
 
-    bool condición1, condición2;
-    cout << "Ingresa dos condiciones (1 para verdadero, 0 para falso):\n";
-    cout << "Condición 1: ";
-    cin >> condición1;
-    cout << "Condición 2: ";
-    cin >> condición2;
+    cout << "Comparando los dos numeros:\n";
+    cout << "¿" << num1 << " es mayor que " << num2 << "? " << (num1 > num2 ? "true" : "false") << "\n";
+    cout << "¿" << num1 << " es igual a " << num2 << "? " << (num1 == num2 ? "true" : "false") << "\n";
+    cout << "¿" << num1 << " es diferente de " << num2 << "? " << (num1 != num2 ? "true" : "false") << "\n";
+    cout << "¿" << num1 << " es menor que " << num2 << "? " << (num1 < num2 ? "true" : "false") << "\n";
+    cout << "¿" << num1 << " es mayor o igual a " << num2 << "? " << (num1 >= num2 ? "true" : "false") << "\n";
+    cout << "¿" << num1 << " es menor o igual a " << num2 << "? " << (num1 <= num2 ? "true" : "false") << "\n";
 
-    cout << "Condición 1 Y Condición 2: " << (condición1 && condición2) << "\n";
-    cout << "Condición 1 O Condición 2: " << (condición1 || condición2) << "\n";
-    cout << "NO Condición 1: " << (!condición1) << "\n";
+    cout << "Ejemplo de operadores logicos:\n";
+    cout << "¿" << num1 << " es mayor que 10 y menor que 20? " << ((num1 > 10 && num1 < 20) ? "true" : "false") << "\n";
+    cout << "¿" << num1 << " es menor que 5 o mayor que 15? " << ((num1 < 5 || num1 > 15) ? "true" : "false") << "\n";
 }
