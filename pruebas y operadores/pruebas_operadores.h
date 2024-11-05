@@ -1,16 +1,6 @@
-//
-// Created by Micae on 05/11/2024.
-//
+#ifndef PRUEBAS_H
+#define PRUEBAS_H
 
-#ifndef PRUEBAS_OPERADORES_H
-#define PRUEBAS_OPERADORES_H
+void ejecutarPruebas();
 
-
-
-class pruebas_operadores {
-
-};
-
-
-
-#endif //PRUEBAS_OPERADORES_H
+#endif // PRUEBAS_H
