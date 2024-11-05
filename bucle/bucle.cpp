@@ -33,7 +33,7 @@ void ejecutarBucle() {
     cout << "Uso de break en un bucle:\n";
     for (int i = 1; i <= 20; i++) {
         if (i == 11) {
-            cout << "Se alcanzo el número 11, saliendo del bucle.\n";
+            cout << "Se alcanzo el numero 11, saliendo del bucle.\n";
             break;
         }
         cout << i << "\n";
