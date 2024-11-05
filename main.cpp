@@ -1,3 +1,7 @@
-//
-// Created by Micae on 05/11/2024.
-//
+#include <iostream>
+#include "variables.h"
+
+int main() {
+    ejecutarVariables();
+    return 0;
+}
